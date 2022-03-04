@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 30px 0;
+    box-shadow: 10px 10px 32px -12px rgba(0,0,0,0.75);
+}
+
+main {
+    text-align: center;
+}
+
+button {
+    margin: 50px auto;
+    background-color: lightskyblue;
+    color: white;
+    font-size: 25px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
+    box-shadow: 10px 10px 32px -12px rgba(0,0,0,0.75);
+}
+
+input {
+    height: 45px;
+}
+
+input[type="text"] {
+    font-size:25px;
+}
+
+img {
+    height: 350px;
+    width: auto;
+    box-shadow: 10px 10px 32px -12px rgba(0,0,0,0.75);
+}
+
+ul {
+    list-style: none;
+    font-size: 14px;
+}
