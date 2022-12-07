@@ -28,9 +28,9 @@ submission by making a pull request on the original repository.
 First, use `fetch()` to make a GET request to the Cat API and console log the
 response object.
 
-- Navigate to the [Cat API Documentation](https://docs.thecatapi.com/) and read
+- Navigate to the [Cat API Documentation](https://thecatapi.com/) and read
   through the documentation.
-- Use the following endpoint: https://thecatapi.com/
+- Use the following endpoint: https://api.thecatapi.com/v1/images/search
 - In `script.js`, use `fetch()` and the "Get a Random Kitty" URL to make a GET
   request and console log the response object.
 
