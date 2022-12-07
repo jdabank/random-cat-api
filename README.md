@@ -30,6 +30,7 @@ response object.
 
 - Navigate to the [Cat API Documentation](https://docs.thecatapi.com/) and read
   through the documentation.
+- Use the following endpoint: https://api.thecatapi.com/v1/images/search
 - In `script.js`, use `fetch()` and the "Get a Random Kitty" URL to make a GET
   request and console log the response object.
 
@@ -43,35 +44,6 @@ been provided for you.
 
 - Add functionality so that when the Random Cat button is clicked, an image of a
   random cat appears!
-
-### Part 3
-
-Finally, you will add a search feature to the form in the starter code. To
-utilize this API's search functionality, you will need to request and use an API
-key. The key will go in a fetch object called headers. Check out the
-[fetch documentation](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
-to learn more about this!
-
-You will need to give your fetch function a second parameter called `headers`,
-which will be an object that takes the key:value pair
-`'x-api-key': 'INSERT YOUR API KEY HERE'`. It will look something like this:
-
-```
-fetch('www.randomURL.com', {
-    headers: {
-        'x-api-key': 'INSERT YOUR API KEY HERE'
-    }
-})
-```
-
-Adding the API key allows you to utilize all that the Cat API has to offer!
-
-- Go to the [Cat API web site](https://thecatapi.com/) and request an API key by
-  clicking SIGN UP FOR FREE. The key will be emailed to you right away.
-- In the email, click API DOCUMENTATION and read through it to learn how to use
-  the Cat API to its fullest capacity.
-- Add functionality so that when a user enters a category's ID number into the
-  input field, a random cat from that category appears!
 
 ### Bonus
 
