@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+        <link src="./script.js" defer />
     </head>
     <body>
         <header>
@@ -15,10 +16,10 @@
         </header>
         <main>
             <button class="randomButton">Random Cats! Meow!</button>
-            <div class="randomCat"><img src="" class="randomCatImage"></div>
+            <div class="randomCat"><img alt="cat pix" src=" https://api.thecatapi.com/v1/images/search" class="randomCatImage"></div>
             <form>
                 <input type="text" class="input" placeholder="Category ID">
-                <button class="searchButton">Find Cats! Meow!</button>
+                <button class="searchButton" type="submit">Find Cats! Meow!</button>
             </form>
             <div class="category-keys">
                 <!-- <h3>Categories</h3> -->
@@ -32,8 +33,7 @@
                     <li>15: Clothes</li>
                 </ul>
             </div>
-            <div class="categoryCat"><img src="" class="categoryCatImage"></div>
+            <div class="categoryCat"><img alt="picture of a cat" class="categoryCatImage"></div>
         </main>
-        <script src="script.js"></script>
     </body>
 </html>
